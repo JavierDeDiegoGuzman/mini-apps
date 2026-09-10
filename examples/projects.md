@@ -1,5 +1,7 @@
 # Mini app: proyectos
 
+> Ejemplo histórico. La API vigente se describe en [DSL cerrado](../docs/declarative-dsl.md) y [rutas = vistas](../docs/routing-and-wireframes.md). Este boceto conserva los casos funcionales, no la sintaxis actual.
+
 Ejemplo de diseño de API. No es código ejecutable: los helpers y su implementación todavía no existen.
 
 El objetivo es escribir una sola definición que permita renderizar la app y exportar todas sus vistas, variantes y transiciones.

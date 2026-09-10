@@ -2,6 +2,10 @@
 
 **Propuesta de API, no ejecutable.** Los helpers no están implementados. Este documento une frontend, backend declarativo, persistencia y wireframe esperado. No incluye autenticación: sería una demo privada, no una app lista para exponer públicamente.
 
+> Actualización de arquitectura: la selección de un archivo SQLite de este boceto no es una decisión del framework. El destino actual propuesto es un runtime Effect v4 en Cloudflare Durable Objects, con almacenamiento gestionado por el adaptador. Véanse [los docs actuales](../docs/README.md), que también añaden idempotencia a las mutaciones. El resto de este ejemplo se conserva como boceto de autoría.
+
+> Autoría histórica: doble return y handlers de este ejemplo quedan sustituidos por el [DSL cerrado](../docs/declarative-dsl.md), que sí permite callbacks puros de construcción con [contexto común tipado](../docs/context-and-inference.md). Las vistas se registran como [rutas en un árbol explícito](../docs/routing-and-wireframes.md); la presentación modal pertenece al destino.
+
 ## 1. Qué permite hacer
 
 | Interacción | Tipo de acción | Persistencia |

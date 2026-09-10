@@ -1,5 +1,8 @@
 /*
- * PROPUESTA DE API — NO EJECUTABLE.
+ * PROPUESTA HISTÓRICA — NO EJECUTABLE.
+ * Sustituida por docs/declarative-dsl.md y docs/routing-and-wireframes.md:
+ * builders cerrados sin handlers de runtime/doble return y árbol de rutas=vistas.
+ * Se permiten callbacks de construcción con ctx tipado; ver docs/context-and-inference.md.
  * Los imports @mini/framework y ./server-contract son hipotéticos.
  *
  * Doble nivel:

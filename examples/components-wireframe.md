@@ -1,5 +1,7 @@
 # Wireframe esperado del ejemplo de componentes
 
+> Ejemplo histórico: doble return y descubrimiento de destinos desde componentes han sido sustituidos por [builders cerrados](../docs/declarative-dsl.md) y un [árbol explícito de rutas/vistas](../docs/routing-and-wireframes.md).
+
 Documento ilustrativo del resultado que produciría el exportador de `components.ts`. Está escrito manualmente para evaluar la propuesta; todavía no existe un exportador ni un runtime.
 
 ## Contrato del doble return
