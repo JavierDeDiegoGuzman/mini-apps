@@ -22,6 +22,10 @@ Los tres primeros documentos son la referencia vigente de autoría. Los ejemplos
 - [Wireframe de componentes](../examples/components-wireframe.md)
 - [Todo list completo](../examples/03-todos.md)
 
+## Exploraciones abiertas
+
+- [Plan de prototipos: componentes Effect + Atom frente a arquitectura estilo Foldkit](./component-reactivity-plan.md). Propuesta alternativa en evaluación; no sustituye todavía las decisiones vigentes de composición, contexto o AST.
+
 ## Decisiones de partida
 
 - Una única raíz exportada de aplicación; artefactos de servidor, cliente y revisión separados por el compilador.
